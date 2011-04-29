@@ -60,6 +60,7 @@ INCLUDE def_apb_slave.txt
   
 module PREFIX(PORTS);
 
+CREATE prgen_rand.v DEFCMD(DEFINE NOT_IN_LIST)
 `include "prgen_rand.v"
 
    parameter                  SLAVE_NUM = 0;
