@@ -29,7 +29,7 @@
 
 SWAP.GLOBAL MODEL_NAME APB slave stub
   
-VERIFY (ADDR_BITS<=24) else Memory size should not be too big to prevent maloc fail
+VERIFY (ADDR_BITS<=24) ##Memory size should not be too big to prevent maloc fail
 
 SWAP DATA_BITS 32  ##APB is always 32 bits data
                   
